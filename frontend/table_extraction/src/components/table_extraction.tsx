@@ -35,7 +35,6 @@ const ImageUploader: React.FC = () => {
     } catch (error) {
       // Handle errors if the request fails
       console.error('Error uploading image:', error);
-      alert('An error occurred while uploading the image');
     }
   };
 

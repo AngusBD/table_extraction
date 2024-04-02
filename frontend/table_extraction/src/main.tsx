@@ -1,15 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.tsx'
 import 'bootstrap/dist/css/bootstrap.css'
-import ImageUploader from './components/table_extraction.tsx'
-// import ExcelDownloadLink from './components/DownloadLink.tsx'
-import ExcelDownloadLinkWithBlob from './components/DownloadLinkWithBlob.tsx'
+import ImageUploader from './components/table_extraction'
+import ExcelDownloadLink from './components/DownloadExcel'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ImageUploader />
-    {/* <ExcelDownloadLink/> */}
-    <ExcelDownloadLinkWithBlob/>
+    <ImageUploader/>
+    <ExcelDownloadLink />
   </React.StrictMode>,
 )

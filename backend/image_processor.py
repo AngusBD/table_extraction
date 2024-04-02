@@ -1,5 +1,6 @@
 from img2table.document import Image
 from img2table.ocr import PaddleOCR
+# from datetime import datetime
 import cv2
 import os
 
